@@ -5,6 +5,7 @@ A través de este análisis, buscamos responder preguntas clave sobre la industr
 ## Dataset
 - **Fuente:** Kaggle  
 - **Descripción:**
+  
 | Variable         | Descripción                                 |
 |------------------|---------------------------------------------|
 | artist           | Artista                                     |
