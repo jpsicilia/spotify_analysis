@@ -6,24 +6,27 @@ A través de este análisis, buscamos responder preguntas clave sobre la industr
 - **Fuente:** Kaggle  
 - **Descripción:**
   
-| Variable         | Descripción                                 |
-|------------------|---------------------------------------------|
-| artist           | Artista                                     |
-| song             | Nombre de la canción                       |
-| duration_ms      | Duración en milisegundos                   |
-| explicit         | Si es explícita (True/False)               |
-| year             | Año de lanzamiento                         |
-| popularity       | Popularidad (0 a 100)                      |
-| danceability     | Qué tan bailable es (0-1)                  |
-| energy           | Nivel de energía (0-1)                     |
-| loudness         | Volumen medio (dB)                         |
-| speechiness      | Presencia de palabras habladas (0-1)       |
-| acousticness     | Nivel de acústica (0-1)                    |
-| instrumentalness | Probabilidad de ser instrumental (0-1)     |
-| liveness         | Probabilidad de grabación en vivo (0-1)    |
-| valence          | Positividad o felicidad (0-1)              |
-| tempo            | Tempo (BPM)                                |
-| genre            | Géneros asociados (puede ser múltiple)     |
+| Variable         | Descripción                                          |
+|------------------|------------------------------------------------------|
+| artist           | Artista                                              |
+| song             | Nombre de la canción                                 |
+| duration_ms      | Duración de la canción en milisegundos               |
+| explicit         | Indica si la canción tiene contenido explícito       |
+| year             | Año de lanzamiento                                   |
+| popularity       | Popularidad de la canción en Spotify (0 a 100)       |
+| danceability     | Qué tan bailable es la canción (0 a 1)               |
+| energy           | Nivel de energía de la canción (0 a 1)               |
+| key              | Tono musical representado como un entero             |
+| loudness         | Volumen medio de la canción en decibelios (dB)       |
+| mode             | Modalidad (1=Mayor, 0=Menor)                         |
+| speechiness      | Presencia de palabras habladas en la canción (0 a 1) |
+| acousticness     | Confianza de que la canción sea acústica (0 a 1)     |
+| instrumentalness | Probabilidad de que sea instrumental (0 a 1)         |
+| liveness         | Probabilidad de que sea una grabación en vivo (0 a 1)|
+| valence          | Medida de positividad o felicidad percibida (0 a 1)  |
+| tempo            | Tempo de la canción en beats por minuto (BPM)        |
+| genre            | Género o géneros asociados                           |
+
 
 ## Tecnologías y Librerías
 - Python 
