@@ -1,0 +1,13 @@
+pandas==3.0.2
+numpy==2.4.4
+matplotlib==3.10.8
+seaborn==0.13.2
+plotly==6.9.0
+networkx==3.6.1
+scikit-learn==1.8.0
+scipy==1.17.1
+
+# dev / notebook
+jupyter
+nbformat
+pytest

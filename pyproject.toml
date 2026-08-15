@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spotify-song-analysis"
+version = "0.1.0"
+description = "Exploratory data analysis of ~2000 popular Spotify songs (1999-2019)."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Jose Pablo Perez Cicilia", email = "" }]
+license = { text = "MIT" }
+dependencies = [
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "plotly",
+    "networkx",
+    "scikit-learn",
+    "scipy",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "jupyter", "nbformat", "ruff"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
