@@ -106,7 +106,7 @@ includes a regression test asserting single-song artists keep a positive score.
 standard Spotify audio features (danceability, energy, valence, tempo, etc.).
 
 <!-- TODO: paste the original data source here, e.g. the Kaggle dataset URL -->
-Source: _add the dataset URL you downloaded this from (e.g. Kaggle)._
+Source: Kaggle
 
 ## License
 
